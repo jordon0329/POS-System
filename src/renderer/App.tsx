@@ -1,10 +1,12 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+
+import 'tailwindcss/tailwind.css';
 
 function Hello() {
   return (
     <div>
-      <h1 className="font-bold text-6xl text-center">Hello</h1>
+      <h1 className="font-bold text-xl text-center">Hello</h1>
+      <p>This is paragraph</p>
     </div>
   );
 }
