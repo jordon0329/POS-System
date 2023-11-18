@@ -5,7 +5,7 @@ import 'tailwindcss/tailwind.css';
 function Hello() {
   return (
     <div>
-      <h1 className="font-bold text-6xl text-center">Hello</h1>
+      <h1 className="font-bold text-9xl text-center text-blue-700">Hello</h1>
     </div>
   );
 }
