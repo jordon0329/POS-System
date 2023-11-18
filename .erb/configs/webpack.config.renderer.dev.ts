@@ -74,9 +74,9 @@ const configuration: webpack.Configuration = {
               importLoaders: 1,
             },
           },
-          'postcss-loader',
+          'sass-loader',
         ],
-        include: [webpackPaths.srcRendererPath],
+        include: /\.module\.s?(c|a)ss$/,
       },
       {
         test: /\.s?css$/,
