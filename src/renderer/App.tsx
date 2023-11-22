@@ -1,20 +1,15 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 
 import 'tailwindcss/tailwind.css';
-
-function Hello() {
-  return (
-    <div>
-      <h1 className="font-bold text-9xl text-center text-blue-700">Hello</h1>
-    </div>
-  );
-}
+import CustomerOrderPage from './pages/CustomerOrderPage';
+import LoginPage from './pages/LoginPage';
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Hello />} />
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/customerorder" element={<CustomerOrderPage />} />
       </Routes>
     </Router>
   );
