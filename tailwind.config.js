@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         sky: colors.sky,
         cyan: colors.cyan,
+        background: '#2a3640',
+        customGray: '#ffffff40',
+        modalBackground: '#1f2937',
+        inputBackground: '#374151',
       },
     },
   },
